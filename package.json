@@ -7,7 +7,7 @@
   "author": "Worklocal Inc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/worklocalinc/biopics-mcp.git"
+    "url": "git+https://github.com/worklocalinc/biopics-mcp.git"
   },
   "homepage": "https://biopics.ai",
   "keywords": [
@@ -28,7 +28,7 @@
     "dist"
   ],
   "bin": {
-    "biopics-mcp": "./dist/index.js"
+    "biopics-mcp": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
